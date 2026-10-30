@@ -1,6 +1,5 @@
 #include<iostream>
 #include<iomanip>
-#include<cstring>
 using namespace std;
 int main(){
     char names[5][20];
@@ -23,7 +22,7 @@ if(totals[i]>maxtotal){
     maxtotal=totals[i];
     topstudent=i;
 }
-cin.ignore();
+cin.ignore();//clear input newline
 cout<<"--------------------"<<endl;}
 cout<<setw(15)<<"name";
 cout<<setw(6)<<"m1"<<setw(6)<<"m2"<<setw(6)<<"m3";
